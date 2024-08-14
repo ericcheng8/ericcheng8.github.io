@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+        }
+        nav a {
+            color: white;
+            padding: 1em;
+            text-decoration: none;
+            display: block;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        section {
+            padding: 2em;
+            background-color: #fff;
+            margin: 2em 0;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #333;
+        }
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1em;
+        }
+        .card {
+            background-color: #e9e9e9;
+            padding: 1em;
+            flex: 1 1 30%;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to My Portfolio</h1>
+</header>
+
+<nav>
+    <a href="#projects">Projects</a>
+    <a href="#classes">Classes</a>
+    <a href="#achievements">Achievements</a>
+</nav>
+
+<section id="projects">
+    <h2>Undergraduate Projects</h2>
+    <div class="content">
+        <div class="card">
+            <h3>Project 1</h3>
+            <p>Description of Project 1.</p>
+            <!-- <a href="https://github.com/username/project1" target="_blank">View on GitHub</a> -->
+        </div>
+        <div class="card">
+            <h3>Project 2</h3>
+            <p>Description of Project 2.</p>
+            <!-- <a href="https://github.com/username/project2" target="_blank">View on GitHub</a> -->
+        </div>
+        <!-- Add more projects as needed -->
+    </div>
+</section>
+
+<section id="classes">
+    <h2>Classes</h2>
+    <ul>
+        <li>Class 1: Description</li>
+        <li>Class 2: Description</li>
+        <!-- Add more classes as needed -->
+    </ul>
+</section>
+
+<section id="achievements">
+    <h2>Achievements</h2>
+    <ul>
+        <li>Achievement 1: Description</li>
+        <li>Achievement 2: Description</li>
+        <!-- Add more achievements as needed -->
+    </ul>
+</section>
+
+<footer>
+    <p>&copy; 2024 My Name. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
